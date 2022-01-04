@@ -46,12 +46,20 @@ h1 {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
+  margin-bottom: 150px;
 }
-.container1-half {
+.container-half {
   width: 50%;
   padding: 10px 20px;
 }
 
-.container1-half img {
+.container-half img {
   width: 100%;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
