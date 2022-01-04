@@ -1,0 +1,57 @@
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+.title2 {
+  color: orange;
+}
+.hire-me-button {
+  /* background-color: orange; */
+  background-image: linear-gradient(
+    to right top,
+    #ffe5b4,
+    #e8b384,
+    #cf8061,
+    #b34d4b,
+    #900c3f
+  );
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  transition: 0.3s;
+  font-weight: 700;
+}
+.hire-me-button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  background-image: linear-gradient(
+    to right top,
+    #ebc170,
+    #eb9f62,
+    #e57d60,
+    #d65d67,
+    #be4171
+  );
+}
+.container1 {
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+}
+.container1-half {
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.container1-half img {
+  width: 100%;
+}
