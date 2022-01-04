@@ -1,6 +1,10 @@
 body {
   font-family: "Outfit", sans-serif;
   margin: 0;
+  background-image: url(./images/wave-haikei.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
 }
 h1 {
   font-size: 50px;
@@ -77,9 +81,40 @@ h1 {
   margin: 0 5%;
   border-radius: 10px;
 }
+#exdiv1 {
+  border-left: 5px solid;
+  border-image: linear-gradient(
+    to right top,
+    #ffe5b4,
+    #e8b384,
+    #900c3f,
+    #cf8061,
+    #b34d4b
+  );
+  border-image-slice: 1;
+}
+#exdiv2 {
+  border-left: 5px solid;
+  border-image: linear-gradient(
+    to right top,
+    #900c3f,
+    #e8b384,
+    #cf8061,
+    #b34d4b,
+    #ffe5b4
+  );
+  border-image-slice: 1;
+}
 .experience {
   background-image: url(./images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
+}
+.experience h1 {
+  margin: 20px;
+}
+.footer {
+  text-align: center;
+  margin-bottom: 0;
 }
