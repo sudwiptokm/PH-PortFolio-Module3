@@ -62,4 +62,9 @@ h1 {
   background-image: url(./images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right bottom;
+  margin-bottom: 150px;
+}
+.experience-div {
+  display: flex;
+  flex-direction: row;
 }
